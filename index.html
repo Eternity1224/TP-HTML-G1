@@ -1,25 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Acceuil TP</title>
-</head>
-<body>
-<header>
-<img src="images/logo.png" alt="logo"/ >
-<nav id="navigation">
-<ul>
-<li class="navig"><a bref="index.html" alt="Acceuil">Acceuil</a></li>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Acceuil</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/png" href="logo.png">
+    </head>
+    <body>
+            <header id="tete">
+                <img src="images/logo.png" >
+                    <nav id="nagivation">
+                        <ul>
+                            <li><a href="index.html">Acceuil</a></li>
+                            <li><a href="apropos.html">A propos</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Acceuil</a></li>
+                        </ul>
+                    </nav>
+                    <section id="corps">
+                        <article id="presentation">
+                            <h1>PrÃ©nom Nom</h1>
+                            <h2>Votre future SpÃ©cialitÃ©</h2>
+                            <p>Lorem ipsum dolor sit amet, consecteur adipiscing elit. 
+                               Ut iaculis risus mauris, ut egestas nisl finibus volutpat. 
+                               Donec vel enim ultrices, convallis erat vitae, pulvinar magna. 
+                               Mauris nec viverra fusce.
+                            </p>
+                            <button onclick="window.location.href='apropos.html';">DÃ©couvrir</button>
+                            <button onclick="window.location.href='contact.html';">Contact</button>
+                            <img src="images/photo.jpg" alt="photo" id="photo-perso">
+                        </article>
 
-<li class="navig"><a bref="apropos.html" alt="apropos">A propos</a></li>
+                        <article id="motivation">
+                            <h3>Ma motivation du domaine informatique</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consecteur adipiscing elit. 
+                               Ut iaculis risus mauris, ut egestas nisl finibus volutpat. 
+                               Donec vel enim ultrices, convallis erat vitae, pulvinar magna. 
+                               Mauris nec viverra fusce.
+                                </p>
+                        </article>
 
-<li class="navig"><a bref="blog.html" alt="blog">Blog</a></li>
+                        <article id="temoignages">
+                            <h2>TÃ©moignages</h2>
+                            <h5>Voici ce que mes enseignants et camarades pensent de moi.</h5>
+                            <div id="temoin1">
+                                <img src="images/etoiles.png" alt="etoile">
+                                <p>" Un Ã©tudiant exceptionnel, toujours prÃªt Ã  apprendre. "</p>
+                                <img src="images/temoin1.png" alt="temoin 1">
+                            </div>
 
-<li class="navig"><a bref="contact.html" alt="contact">Contact</a></li>
-</ul>
-</nav>
-</header>
-<footer id="pied" >
-</footer>
-</body>
+                            <div id="temoin1">
+                                <img src="images/etoiles.png" alt="etoile">
+                                <p>" Sa crÃ©ativitÃ© et son engagement sont remarquables. "</p>
+                                <img src="images/temoin2.png" alt="temoin 2">
+                            </div>
+
+                            <div id="temoin1">
+                                <img src="images/etoiles.png" alt="etoile">
+                                <p>" Toujours prÃªt Ã  aider les autres. "</p>
+                                <img src="images/temoin3.png" alt="temoin 3">
+                            </div>
+                        </article>
+                        <article id="valeurs">
+                            <img src="images/valeurs.png" alt="valeurs">
+                            <h2>Mes valeurs</h2>
+                            <h4>Lorem ipsum dolor sit amet, consecteur adipiscing elit.<br>iaculis risus mauris, ut egestas nisl finibus volutpat.</h4>
+                            <ul id="valeurs_details">
+                                <li>Lorem ipsum dolor sit amet, consecteur adipiscing elit.</li>
+                                <li>Lorem ipsum dolor sit amet, consecteur adipiscing elit.</li>
+                                <li>Lorem ipsum dolor sit amet, consecteur adipiscing elit.</li>
+                            </ul>
+                        </article>
+                        <article id="terminus">
+                                    <p id="text_foot">
+                              " Lorem ipsum dolor sit amet, consecteur adipiscing elit. 
+                               Ut iaculis risus mauris, ut egestas nisl finibus volutpat. 
+                               Donec vel enim ultrices, convallis erat vitae, pulvinar magna.
+                               Mauris nec viverra fusce."
+                                    </p>
+                                    <h5>Name Surname</h5>
+                                    <h4>Position, Company name</h4>
+                        </article>
+                    </section>
+                    <footer id="pied">
+                        <p>Copyright 2025 - Nom et PrÃ©nom</p>
+                        <ul id="imag_pied">
+                        <li><img src="images/logos/facebook.png" alt="facebook" class="logo_pied"></li>
+                        <li><img src="images/logos/instagram.png" alt="instagram" class="logo_pied"></li>
+                        <li><img src="images/logos/x.png" alt="x" class="logo_pied"></li>
+                        <li><img src="images/logos/linkedin.png" alt="linkedin" class="logo_pied"></li>
+                        <li><img src="images/logos/youtube.png" alt="youtube" class="logo_pied"></li>
+                        </ul>
+                    </footer>
+            </header>
+    </body>
 </html>
