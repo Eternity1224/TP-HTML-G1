@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            border-bottom: 1px solid #e5e5e5;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: serif;
+            font-style: italic;
+            font-size: 24px;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .breadcrumb {
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 16px;
+        }
+
+        .subtitle {
+            margin-bottom: 40px;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+        }
+
+        .form-group {
+            margin-bottom: 24px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        textarea {
+            height: 150px;
+            resize: vertical;
+        }
+
+        .radio-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-top: 8px;
+        }
+
+        .radio-option {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .radio-option input {
+            width: auto;
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin: 24px 0;
+        }
+
+        .checkbox-group input {
+            width: auto;
+        }
+
+        button {
+            background: black;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+
+        .info-item h2 {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+
+        .info-item p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+
+        .info-item a {
+            color: black;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .directions {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        footer {
+            border-top: 1px solid #e5e5e5;
+            padding: 24px 20px;
+            margin-top: 48px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 16px;
+        }
+
+        .social-links a {
+            color: black;
+        }
+
+        @media (max-width: 768px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Logo</div>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">A Propos</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="breadcrumb">Contact</div>
+        <h1>Contactez-nous</h1>
+        <p class="subtitle">Nous sommes là pour répondre à vos questions.</p>
+
+        <div class="contact-grid">
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstname">Prénom</label>
+                        <input type="text" id="firstname">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Nom</label>
+                        <input type="text" id="lastname">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Numéro de téléphone</label>
+                        <input type="tel" id="phone">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Choisissez un sujet</label>
+                    <select id="subject">
+                        <option value="">Sélectionnez un...</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Comment préférez-vous être contacté ?</label>
+                    <div class="radio-group">
+                        <div class="radio-option">
+                            <input type="radio" id="email-pref" name="contact-pref">
+                            <label for="email-pref">Email</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="phone-pref" name="contact-pref">
+                            <label for="phone-pref">Téléphone</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="mail-pref" name="contact-pref">
+                            <label for="mail-pref">Poste</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="other-pref" name="contact-pref">
+                            <label for="other-pref">Autre</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Tapez votre message..."></textarea>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="terms">
+                    <label for="terms">J'accepte les conditions</label>
+                </div>
+
+                <button type="submit">Soumettre</button>
+            </form>
+
+            <div class="contact-info">
+                <div class="info-item">
+                    <h2>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                        </svg>
+                        Email
+                    </h2>
+                    <p>Contactez-nous à tout moment</p>
+                    <a href="mailto:hello@gmail.com">hello@gmail.com</a>
+                </div>
+
+                <div class="info-item">
+                    <h2>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        Téléphone
+                    </h2>
+                    <p>Appelez-nous pour plus d'infos</p>
+                    <a href="tel:+229019700000">+229 01 97 00 00 00</a>
+                </div>
+
+                <div class="info-item">
+                    <h2>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        Bureau
+                    </h2>
+                    <p>123 Sample St, Sydney NSW</p>
+                    <p>2000 AU</p>
+                    <a href="#" class="directions">
+                        Obtenir des directions
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 18l6-6-6-6"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div>Copyright 2024 - Nom et Prénom</div>
+        <div class="social-links">
+            <a href="#" aria-label="Facebook">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
+                </svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153.509.5.902 1.105 1.153 1.772.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 01-1.153 1.772c-.5.509-1.105.902-1.772 1.153-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 01-1.772-1.153 4.904 4.904 0 01-1.153-1.772c-.247-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 011.153-1.772A4.897 4.897 0 015.45 2.525c.638-.247 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 100 10 5 5 0 000-10zm6.5-.25a1.25 1.25 0 10-2.5 0 1.25 1.25 0 002.5 0zM12 8.667a3.333 3.333 0 110 6.666 3.333 3.333 0 010-6.666z"/>
+                </svg>
+            </a>
+            <a href="#" aria-label="Twitter">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"/>
+                </svg>
+            </a>
+            <a href="#" aria-label="LinkedIn">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+            </a>
+            <a href="#" aria-label="YouTube">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
