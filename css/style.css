@@ -178,3 +178,6 @@
                 grid-template-columns: 1fr;
             }
         }
+.logo_pied{
+  display: flex;
+}
