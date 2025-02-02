@@ -1,1 +1,180 @@
-// style 
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            border-bottom: 1px solid #e5e5e5;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: serif;
+            font-style: italic;
+            font-size: 24px;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .breadcrumb {
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 16px;
+        }
+
+        .subtitle {
+            margin-bottom: 40px;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+        }
+
+        .form-group {
+            margin-bottom: 24px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        textarea {
+            height: 150px;
+            resize: vertical;
+        }
+
+        .radio-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-top: 8px;
+        }
+
+        .radio-option {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .radio-option input {
+            width: auto;
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin: 24px 0;
+        }
+
+        .checkbox-group input {
+            width: auto;
+        }
+
+        button {
+            background: black;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+
+        .info-item h2 {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+
+        .info-item p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+
+        .info-item a {
+            color: black;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .directions {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        footer {
+            border-top: 1px solid #e5e5e5;
+            padding: 24px 20px;
+            margin-top: 48px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 16px;
+        }
+
+        .social-links a {
+            color: black;
+        }
+
+        @media (max-width: 768px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+        }
