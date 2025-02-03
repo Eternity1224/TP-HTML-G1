@@ -285,3 +285,31 @@ blockquote {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.logo_pied {
+    display: flex;
+    justify-content: center; /* Centrer les icônes horizontalement */
+    gap: 15px; /* Espacement entre les icônes */
+    padding: 20px 0;
+}
+
+.logo_pied a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Taille uniforme des icônes */
+    height: 40px;
+    border-radius: 50%;
+    background-color: black; /* Fond noir pour chaque icône */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.logo_pied a img {
+    width: 20px; /* Ajuster la taille des images */
+    height: 20px;
+    filter: invert(1); /* Inverser la couleur des icônes pour qu'elles soient blanches */
+}
+
+.logo_pied a:hover {
+    transform: scale(1.1); /* Effet de zoom au survol */
+    background-color: #555; /* Changement de couleur au survol */
+}
