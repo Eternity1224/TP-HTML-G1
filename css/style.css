@@ -313,3 +313,73 @@ blockquote {
     transform: scale(1.1); /* Effet de zoom au survol */
     background-color: #555; /* Changement de couleur au survol */
 }
+
+/**********************A Prpos********************/
+h1{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+}
+.div_etablissement h2,h1,#Section_lieu h2{
+    
+    margin-top: 0;
+}
+#Section_entete h1,#Secton_citation h1{
+    margin-top: 5%;
+    text-align: center;
+}
+#Section_entete p{
+    margin-bottom: 15%;
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.Section_parcourt,#Section_Competence{
+    
+    margin-right: 45%;
+    margin-bottom: 15%;
+    
+}
+
+.div_etablissement h1,h5{
+   margin-bottom: 2%;
+}
+#Section_etablissement img, #Section_activite img,#Section_lieu img {
+    width: 45%;
+    height: 550PX;
+
+    
+}
+button{
+    padding: 10px;
+    margin: 20px 20px 0 0;
+}
+.div_etablissement{
+    
+    margin: 170px 30px 80px 30px;
+}
+#Section_etablissement,#Section_activite,#Section_lieu{
+   margin-bottom: 15%;
+    display: flex;
+   
+}
+
+#Section_experience{
+    margin-left: 18%;
+    
+}
+.div_entreprise{
+   
+    margin-left: 5%;
+
+    margin-bottom: 15%;
+    
+}
+#Section_competence{
+    margin-top: -10%;
+    display: flex;
+    margin-bottom: 15%;
+}
+
