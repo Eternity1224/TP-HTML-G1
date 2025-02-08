@@ -159,7 +159,7 @@
             justify-content: space-between;
             align-items: center;
             position : relative;
-margin-top: 97%; 
+height: 3%;
         }
  
         .social_case{
@@ -170,8 +170,8 @@ margin-top: 97%;
         
         .social{
          gap: 0.5%;
-         height: 50%;
-         width: 50 pc;
+         height: 50 px;
+         width: 50 px;
         }
         
 
