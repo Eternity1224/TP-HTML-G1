@@ -160,9 +160,9 @@
             align-items: center;
         }
  
-        .social img{
-          width : 705%;
-
+        .social_case{
+          width : 50%;
+          margin-right: 2%;
         }
 
         
