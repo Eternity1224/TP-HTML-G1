@@ -161,10 +161,14 @@
         }
  
         .social_case{
-          width : 50%;
           margin-right: 2%;
           display : flex;
           gap: 5%;
+        }
+        
+        .social{
+         display: flex;
+         gap: 5%;
         }
         
 
