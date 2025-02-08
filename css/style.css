@@ -166,9 +166,8 @@
         }
         
         .social{
-         display: flex;
          gap: 0.5%;
-         height: 10%;
+         height: 50%;
         }
         
 
