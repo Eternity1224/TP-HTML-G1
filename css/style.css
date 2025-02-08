@@ -167,7 +167,8 @@
         
         .social{
          display: flex;
-         width: 0.5%;
+         gap: 0.5%;
+         height: 10%;
         }
         
 
