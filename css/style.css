@@ -2,11 +2,11 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: Arial, sans-serif;
+            font-family: Arial,         sans-serif;
         }
 
         header {
-            border-bottom: 1px solid #e5e5e5;
+            border-bottom: 1px solid     #e5e5e5;
             padding: 20px;
             display: flex;
             justify-content: space-between;
@@ -162,7 +162,7 @@
 
         .social-links {
             display: flex;
-            gap: 16px;
+            gap: 3%;
         }
 
         .social-links a {
