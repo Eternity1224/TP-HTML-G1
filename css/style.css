@@ -163,12 +163,11 @@
         .social_case{
           margin-right: 2%;
           display : flex;
-          gap: 0.2%;
         }
         
         .social{
          display: flex;
-         gap: 0.2%;
+         width: 0.5%;
         }
         
 
