@@ -11,6 +11,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+position: sticky;
         }
 
         .logo {
@@ -163,9 +164,8 @@ height: 3%;
         }
  
         .social_case{
-          margin-right: 0.0000000001%;
           display : flex;
-          gap: 1%;
+          gap: 5px;
           position: relative;
         }
         
