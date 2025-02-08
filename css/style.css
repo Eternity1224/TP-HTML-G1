@@ -167,6 +167,10 @@ height: 3%;
           display : flex;
           gap: 3px;
         }
+        .social{
+         width: 25%;
+         height: 25%;
+        }
         
 
 
