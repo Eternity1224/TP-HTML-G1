@@ -165,17 +165,7 @@ height: 3%;
  
         .social_case{
           display : flex;
-          gap: -100%;
-          width: 20%;
-          height: 3%;
-        }
-        
-        .social{
-         height: 10 px;
-         width: 10 px;
-         padding: -200%;
-         margin: -200%;
-border-radius: 1500px;
+          gap: 3px;
         }
         
 
