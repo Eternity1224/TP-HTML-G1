@@ -166,7 +166,8 @@ height: 3%;
         .social_case{
           display : flex;
           gap: -100%;
-          position: relative;
+          width: 50%;
+          height: 3%;
         }
         
         .social{
