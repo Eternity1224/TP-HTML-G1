@@ -164,16 +164,15 @@ height: 3%;
         }
  
         .social_case{
-          display : flex;
-          gap: 10px;
-        width: 30%;
-padding-right: 0px;
-margin-right: -1%;
-margin: auto;
+           padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
         .social{
-         width: 35px;
-         height: 35px;
+         display: flex;
+            gap: 24px;
+            list-style: none;
         }
         
 
