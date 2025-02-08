@@ -164,11 +164,13 @@
         .social_case{
           margin-right: 2%;
           display : flex;
+          position: relative ;
         }
         
         .social{
          gap: 0.5%;
          height: 50%;
+         margin: auto;
         }
         
 
