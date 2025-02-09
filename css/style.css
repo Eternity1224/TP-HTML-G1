@@ -168,13 +168,14 @@ height: 3%;
             justify-content: space-between;
             align-items: center;
             gap: -3px;
+width: 250px;
         }
         .social{
          display: flex;
-            list-style: none;
+          list-style: none;
 width: 10%;
 height: 10%;
-margin: auto;
+padding: 20px;
         }
         
 .temoin{
