@@ -188,7 +188,8 @@ border-radius: 10px;
 .temon{
 width: 75px;
 height: 75px;
-
+border-radius: 1000px;
+border: 1px solid black;
 }
 
 
