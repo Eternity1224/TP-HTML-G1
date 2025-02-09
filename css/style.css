@@ -179,10 +179,13 @@ padding: 20px;
         }
         
 .temoin{
-list-style: none;
 width : 30%;
-border: 1px solid black;
 border-radius: 10px;
+width: 30%; 
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
 }
 
 .temon{
@@ -202,8 +205,9 @@ width: 60%;
 }
 .present{
 display: flex;
-gap: 24px;
-list-style: none;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 10px;
 }
 
 
