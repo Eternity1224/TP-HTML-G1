@@ -184,6 +184,8 @@ width : 30%;
 border: 1px solid black;
 border-radius: 10px;
 margin-right: 10%;
+display:flex;
+width: 90%;
 margin-left: 10%; 
 }
 
@@ -192,9 +194,6 @@ width: 75px;
 height: 75px;
 border-radius: 1000px;
 border: 1px solid black;
-display:flex;
-width: 90%;
-
 }
 
 .star{
