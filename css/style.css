@@ -185,35 +185,61 @@ height: 10%;
 padding: 20px;
         }
         
-.temoin{
-border-radius: 10px;
-width: 30%; 
+css
+#temoignages {
+    background-color: #f9f9f9;
     padding: 20px;
-    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.temon{
+#temoignages h2 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+}
+
+#temoignages h5 {
+    font-size: 1.2em;
+    color: #666;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#present {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.temoin {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px;
+    width: calc(33% - 40px);
+    text-align: center;
+}
+
+.temoin img.temon {
+    border-radius: 50%;
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.temoin img.star {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.temoin p {
+    font-size: 1em;
+    color: #555;
+}temon{
 width: 75px;
 height: 75px;
 border-radius: 1000px;
-border: 2px solid black;
-margin: auto;
-}
-
-.star{
-width:50px;
-height:10px;
-}
-
-.copyright{
-width: 60%;
-text-align: left;
-}
-.present{
-display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    gap: 10px;
 }
 
 
