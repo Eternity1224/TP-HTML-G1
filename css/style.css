@@ -168,7 +168,7 @@ height: 3%;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            gap: 3px;
+            gap: -3px;
         }
         .social{
          display: flex;
