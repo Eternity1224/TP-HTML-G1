@@ -188,10 +188,8 @@ padding: 20px;
 .temoin{
 border-radius: 10px;
 width: 30%; 
-    background-color: lightgray;
-    text-align: center;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
 }
 
 .temon{
@@ -199,6 +197,7 @@ width: 75px;
 height: 75px;
 border-radius: 1000px;
 border: 2px solid black;
+margin: auto;
 }
 
 .star{
@@ -208,6 +207,7 @@ height:10px;
 
 .copyright{
 width: 60%;
+text-align: left;
 }
 .present{
 display: flex;
