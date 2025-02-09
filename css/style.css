@@ -65,6 +65,13 @@
             grid-template-columns: 1fr 1fr;
             gap: 16px;
         }
+.containt_presentation{
+display: flex;
+gap: 50px;
+}
+.part{
+width: 50%;
+}
 
         label {
             display: block;
