@@ -168,10 +168,10 @@ height: 3%;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            gap: 3px;
         }
         .social{
          display: flex;
-            gap: 5px;
             list-style: none;
 width: 10%;
 height: 10%;
