@@ -183,10 +183,7 @@ list-style: none;
 width : 30%;
 border: 1px solid black;
 border-radius: 10px;
-margin-right: 10%;
-display:flex;
-width: 90%;
-margin-left: 10%; 
+display:flex; 
 gap: 10 px;
 }
 
@@ -205,9 +202,11 @@ height:10px;
 .copyright{
 width: 50%;
 }
-
-
-        
+.présent{
+width: 90%;
+margin-right: 10%;
+margin-left: 10%;
+}
 
 
 
