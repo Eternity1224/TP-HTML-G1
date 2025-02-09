@@ -183,6 +183,8 @@ list-style: none;
 width : 30%;
 border: 1px solid black;
 border-radius: 10px;
+margin-right: 10%;
+margin-left: 10%; 
 }
 
 .temon{
@@ -192,8 +194,7 @@ border-radius: 1000px;
 border: 1px solid black;
 display:flex;
 width: 90%;
-margin-right: 10%;
-margin-left: 10%; 
+
 }
 
 .star{
