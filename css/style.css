@@ -190,6 +190,10 @@ width: 75px;
 height: 75px;
 border-radius: 1000px;
 border: 1px solid black;
+display:flex;
+width: 90%;
+margin-right: 10%;
+margin-left: 10%; 
 }
 
 .star{
