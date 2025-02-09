@@ -187,6 +187,7 @@ margin-right: 10%;
 display:flex;
 width: 90%;
 margin-left: 10%; 
+gap: 10 px;
 }
 
 .temon{
