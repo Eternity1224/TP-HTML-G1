@@ -239,8 +239,8 @@ text-align: left;
 .matof{
     width: 350px;
     height: 450px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 30%;
 }
 .containt_presentation{
     display: flex;
