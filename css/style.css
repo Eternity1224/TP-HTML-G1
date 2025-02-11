@@ -274,6 +274,14 @@ margin-right: 20%;
 display: flex;
 gap: 5px;
 }
+.étoiles{
+margin-left: 20%;
+margin-right: 20%;
+}
+
+
+
+
 
 
 @media (max-width: 768px) {
