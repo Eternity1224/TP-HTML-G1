@@ -280,8 +280,14 @@ margin-right: 25%;
 .name{
 text-align: center;
 font-style: bold;
-margin-left: 40%;
+margin-left: 50%;
 }
+
+
+
+
+
+
 
 
 
@@ -392,7 +398,7 @@ blockquote {
 
 .logo span {
     display: block;
-    font-size: 16px; /* Taille du texte Anato Elysé */
+    font-size: 16px;
     font-weight: normal;
     letter-spacing: 2px;
     background-color: white;
@@ -431,7 +437,7 @@ blockquote {
     background-color: #555; /* Changement de couleur au survol */
 }
 
-/****A Prpos******/
+/****A Propos******/
 h1{
     font-size: 40px;
 }
