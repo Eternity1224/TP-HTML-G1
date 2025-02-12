@@ -281,54 +281,17 @@ margin-right: 25%;
 text-align: center;
 margin-left: 35%;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-body {
-    background-color: #f8f8f8;
-    color: #333;
-    line-height: 1.6;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background: #fff;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.logo {
-    width: 120px;
-}
-
-.navigation a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-.navigation a:hover {
-    color: #0073e6;
-}
-
 .article-container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 40px auto;
     background: #fff;
-    padding: 20px;
+    padding: 40px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 
 .article-title {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -336,6 +299,7 @@ header {
 .article-image img {
     width: 100%;
     height: auto;
+    background: #e0e0e0;
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -345,12 +309,19 @@ header {
     justify-content: space-between;
     font-size: 14px;
     color: #777;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.article-meta p {
+    margin: 0;
 }
 
 .article-content h2 {
-    font-size: 22px;
-    margin: 20px 0 10px;
+    font-size: 24px;
+    margin: 30px 0 15px;
+    font-weight: bold;
 }
 
 .article-content p {
@@ -366,18 +337,24 @@ header {
 .article-content blockquote {
     font-style: italic;
     color: #555;
-    margin: 20px 0;
-    padding: 10px 20px;
+    margin: 30px 0;
+    padding: 20px;
     border-left: 4px solid #0073e6;
     background: #f4f4f4;
+    font-size: 18px;
 }
 
+/* ----- FOOTER ----- */
 .pied {
     background: #fff;
-    padding: 20px;
+    padding: 20px 10%;
     text-align: center;
     margin-top: 40px;
-    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid #ddd;
+}
+
+.social {
+    margin-top: 10px;
 }
 
 .social a {
@@ -388,8 +365,13 @@ header {
 .social img {
     width: 24px;
     height: 24px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
 }
 
+.social img:hover {
+    opacity: 1;
+}
 
 
 
