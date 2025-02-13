@@ -3,12 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <title>Acceuil</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" type="image/png" href="images/log.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="logo.png">
+        <script src="script.js"></script>
     </head>
     <body>
             <header id="tete">
-                <img src="images/log.png" >
+                <img src="" >
                     <nav id="nagivation">
                         <ul>
                             <li><a href="index.html">Acceuil</a></li>
@@ -37,49 +38,53 @@
                                  
                                     <!--************************LIGNE INTERACTIVE************************-->
 
-                <div id="ligne_interactive">
-                    <div class="ligne_extremite"></div>
-                    <div class="annee">
-                        <div class="an">2014</div>
-                     
-                        <div class="cercle"></div>
-                    </div>
-                    
-                    <div class="ligne"></div>
-                    <div class="annee">
-                        <div class="an">2015</div>
-                 
-                        <div class="cercle"></div>
-                    </div>
-
-                    <div class="ligne"></div>
-                    <div class="annee">
-                        <div class="an">2017</div>
-                 
-                        <div class="cercle"></div>
-                    </div>
-
-                    <div class="ligne"></div>
-                    <div class="annee">
-                        <div class="an">2018</div>
-                 
-                        <div class="cercle"></div>
-                    </div>
-                    <div class="ligne_extremite"></div>
-                </div>
+                                    
+                                        <div id="ligne_interactive">
+                                            <div class="ligne_extremite"   data-line="2014"></div>
+                                    
+                                            <div class="annee">
+                                                <div class="an" >2014</div>
+                                                <div onclick="Info(2014)"><div class="cercle" data-line="2014"></div></div>
+                                            </div>
+                                    
+                                            <div class="ligne" data-line="2015"></div>
+                                            <div class="annee">
+                                                <div class="an">2015</div>
+                                                <div onclick="Info(2015)"><div class="cercle" data-line="2015"></div></div>
+                                            </div>
+                                    
+                                            <div class="ligne" data-line="2019"></div>
+                                            <div class="annee">
+                                                <div class="an">2019</div>
+                                                <div onclick="Info(2019)"><div class="cercle" data-line="2019" ></div></div>
+                                            </div>
+                                    
+                                            <div class="ligne" data-line="2023"></div>
+                                            <div class="annee">
+                                                <div class="an">2023</div>
+                                                <div onclick="Info(2023)"><div class="cercle" data-line="2023" ></div></div>
+                                            </div>
+                                    
+                                            <div class="ligne_extremite" data-line="0000"></div>
+                                        </div>
+                                    
+                                      
+                                    
+                                      
+                                    </body>
+                                    </html>
+                                    
                  <!--************************SECTION ETABLISSEMENT************************-->
                     <section id="Section_etablissement">
                         <div class="div_etablissement">
-                            <h1>Nom de l'établissement</h1>
-                            <h2>Ville,pays</h2>
-                            <p>J'ai eu la chance d'étudier dans des institutions prestigieuses qui ont enrichi 
-                                    mes connaissances. Chaque étape de mon éducation a été marquée par des 
-                                    expériences d'apprentissage significatives</p>
+                            <h1 id="nom">Établissement 1</h1>
+                            <h2 id="ville">Ville1,pays1</h2>
+                            <p id="detaille">Début de mon parcours scolaire dans une école renommée.</p>
                             <button>En savoir plus</button>
                             <a href="">Contact > </a>
                         </div>
                        
-                        <img src="ll.webp" alt="">
+                        <img id="image" src="ll.webp" alt="">
 
                     </section>
                        
@@ -96,7 +101,7 @@
                                       <!--************************SECTION ENTREPRISE************************-->
                                       <section id="Section_entreprise">
                                         <div class="Section_entreprise">
-                                            <div class="ligneextrem"></div>
+                                            <div class="ligneextrem" ></div>
                                             <div class="cercle1"></div>
                                             <div class="ligne1"></div>
                                             <div class="cercle1"></div>
@@ -104,7 +109,7 @@
                                             <div class="cercle1"></div>
                                             <div class="ligne1"></div>
                                             <div class="cercle1"></div>
-                                            <div class="ligneextrem"></div>
+                                            <div class="ligne1"></div>
                                             
                                         </div>
                                         <div id="div_entreprise">
@@ -195,21 +200,21 @@
 
                     <section id="Section_activite">
                  
-                        <img src="ll.webp" alt="">
+                        <img id="activiteImages" src="Img1.jpg" alt="">
                         <div id="div_activite">
-                            <div class="activite">
+                            <div class="activite active" onclick="fonctionActivite(0)">
                                 <h2>Activité 1</h2>
                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in 
                                     eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum 
                                     nulla, ut commodo diam libero vitae erat.</p>
                                  </div>
-                            <div class="activite">
+                            <div class="activite" onclick="fonctionActivite(1)">
                                 <h2>Activité 2</h2>
                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in 
                                     eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum 
                                     nulla, ut commodo diam libero vitae erat.</p>
                                  </div>
-                            <div class="activite">
+                            <div class="activite" onclick="fonctionActivite(2)">
                                 <h2>Activité 3</h2>
                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in 
                                     eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum 
@@ -312,51 +317,50 @@
                     </section>
                     <section id="Section_lieu">
                         <div class="div_etablissement">
-                            <h1>Lieu</h1>
-                            <h2>Date</h2>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at elit in lorem 
-                                dignissim malesuada. Sed vitae magna id libero varius convallis</p>
+                            <h1 id="lieu">Lieu 1</h1>
+                            <h2 id="date">Date1</h2>
+                            <p id="description"> Début de mon parcours scolaire dans une école renommée.</p>
                             
                         </div>
                        
-                        <img src="ll.webp" alt="">
+                        <img id="imag" src="Img2.jpg" alt="">
 
                     </section>
                
                    
                     <div id="ligne_interactive">
-                        <div class="ligne_extremite"></div>
-                        <div class="ville">
+                        <div class="ligne_extremite" data-line="1"></div>
 
-                            <div class="cercle3"></div>
-                            <div class="vil">Ville ou pays</div>
-                     
-                        </div>
+                            
+                            <div class="ville" onclick="InfoV(1)">
+                                <div class="cercle3" data-line="1"></div>
+                                <div class="vil">Ville ou pays</div>
+                            </div>
+                            
+               
                         
-                        <div class="ligne"></div>
-                        <div class="ville">
-                     
-                            <div class="cercle3"></div>
+                        <div class="ligne" data-line="2"></div>
+                        <div class="ville" onclick="InfoV(2)">
+                            <div class="cercle3" data-line="2"></div>
                             <div class="vil">Ville ou pays</div>
-                     
                         </div>
-    
-                        <div class="ligne"></div>
-                        <div class="ville">
-                           
-                            <div class="cercle3"></div>
-                            <div class="vil">Ville ou pays</div>
-                     
-                        </div>
-    
-                        <div class="ligne"></div>
-                        <div class="ville">
 
-                            <div class="cercle3"></div>
-                            <div class="vil">Ville ou pays</div>
-                     
-                        </div>
-                        <div class="ligne_extremite"></div>
+
+                        <div class="ligne" data-line="3"></div>
+                       <div class="ville" onclick="InfoV(3)">
+                                <div class="cercle3" data-line="3"></div>
+                                <div class="vil">Ville ou pays</div>
+                            </div>
+
+    
+                        <div class="ligne" data-line="4"></div>
+                       <div class="ville" onclick="InfoV(4)">
+                                <div class="cercle3" data-line="4"></div>
+                                <div class="vil">Ville ou pays</div>
+                            </div>
+
+
+                        <div class="ligne_extremite" data-line="5"></div>
                     </div>
 
 
@@ -395,15 +399,17 @@
                   
                     
                   
-                     <footer class="pied">
-                        <div class="copyright">Copyright 2024 - ANATO Elysé</div>
-                        <div class="social">
-                            <a href="https://www.facebook.com/elysman"><img src="images/logo/facebook.png" alt="Facebook" class="social-img"></a>
-                            <a href="https://www.instagram.com/elyse142023"><img src="images/logo/instagram.png" alt="Instagram" class="social-img"></a>
-                            <a href="https://www.twitter.com/elysman"><img src="images/logo/x.png" alt="X" class="social-img"></a>
-                            <a href="https://www.linkedin.com"><img src="images/logo/linkedin.png" alt="LinkedIn" class="social-img"></a>
-                            <a href="https://www.youtube.com/pajax"><img src="images/logo/youtube.png" alt="YouTube" class="social-img"></a>
-                        </div>
-                    </footer>
+    <footer class="pied">
+        <div class="copyright">Copyright 2024 - Nom et Prénom</div>
+        <div class="social">
+            <a href="#facebook">FB</a>
+            <a href="#instagram">IG</a>
+            <a href="#twitter">X</a>
+            <a href="#linkedin">IN</a>
+            <a href="#youtube">YT</a>
+        </div>
+    </footer>
 </body>
 </html>
+
+
