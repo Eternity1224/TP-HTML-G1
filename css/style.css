@@ -645,7 +645,7 @@ margin: 40% auto;
         .image-container {
             width: 100%;
             height: 180px;
-            background-color: #e0e0e0;
+            background-image: url(../images/photos.png);
             display: flex;
             justify-content: center;
             align-items: center;
