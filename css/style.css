@@ -74,7 +74,19 @@
             display: block;
             margin-bottom: 8px;
         }
-
+        .poffe{
+                width: 40%;
+                text-align: justify;
+                margin-left: 50%;
+        }
+        .toute{
+            display: flex;
+        }
+.ma{
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+}
         input, select, textarea {
             width: 100%;
             padding: 8px;
@@ -237,7 +249,6 @@ text-align: left;
 .matof{
     display: block;
     margin: 0 auto;
-    width: 300px;      
     width: 350px;
     height: 450px;
 }
@@ -283,9 +294,8 @@ display: flex;
 gap: 5px;
 }
 .star{
-  display: block;
-  margin: 0 auto;
-  width: 300px;
+margin-left: 25%;
+margin-right: 25%;
 }
 .name{
 text-align: center;
