@@ -616,11 +616,11 @@ margin: 40% auto;
             font-size: 28px;
         }
 
-        .categories {
+        .type {
             margin: 20px 0;
         }
 
-        .categories button {
+        .type .button {
             background: none;
             border: 1px solid black;
             padding: 8px 15px;
