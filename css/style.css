@@ -127,7 +127,7 @@
             width: auto;
         }
 
-        button {
+        .button_index {
             background: black;
             color: white;
             padding: 12px 24px;
