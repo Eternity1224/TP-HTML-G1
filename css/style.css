@@ -646,7 +646,7 @@ margin: 40% auto;
             width: 100%;
             height: 180px;
             background-image: url(../images/photos.png);
-            background-size: contain;
+            background-size: cover;
             display: flex;
             justify-content: center;
             align-items: center;
