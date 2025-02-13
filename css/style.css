@@ -655,7 +655,7 @@ margin: 40% auto;
         .image-container img {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+     
         }
 
         .cont {
