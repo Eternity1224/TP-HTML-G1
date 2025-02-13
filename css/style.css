@@ -283,8 +283,9 @@ display: flex;
 gap: 5px;
 }
 .star{
-margin-left: 25%;
-margin-right: 25%;
+  display: block;
+  margin: 0 auto;
+  width: 300px;
 }
 .name{
 text-align: center;
