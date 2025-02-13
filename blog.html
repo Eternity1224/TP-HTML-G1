@@ -1,127 +1,167 @@
-de<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Blog - Articles</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"
 </head>
-<body>
-   <header id="tete">
-                <img src="images/log.png" >
-                    <nav id="nagivation">
-                        <ul>
-                            <li><a href="index.html">Acceuil</a></li>
-                            <li><a href="apropos.html">A propos</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
-                    </header>
+<body class="body">
 
-    <main>
-        <section class="entete">
-        <h1>Découvrez nos derniers articles</h1>
+
+    <div class="main">
+        <h1 class="desc">Découvrez nos derniers articles</h1>
         <p>Explorez des sujets passionnants et enrichissants.</p>
-        
-        <div class="boutons">
-            <button class="bouton actif">Voir tout</button>
-            <button class="bouton">Technologie</button>
-            <button class="bouton">Éducation</button>
-            <button class="bouton">Inspiration</button>
-            <button class="bouton">Conseils pratiques</button>
+
+        <div class="categories">
+            <button>Voir tout</button>
+            <button>Technologie</button>
+            <button>Éducation</button>
+            <button>Inspiration</button>
+            <button>Conseils pratiques</button>
         </div>
-        </section>
 
-        <section class="grille_articles">
-            <!-- Article 1 -->
-        <article class="article">
-            <div class="image">
-                <img src="image.png" alt="Image article">
+        <div class="list_articles">
+            <!-- ARTICLE 1 -->
+            <div class="card">
+                <div class="image-container">
+                    <img src="G.jpg" alt="Article 1">
+                </div>
+                <div class="cont">
+                    <div class="tag">Éducation</div>
+                    <span class="reading-time">5 min lecture</span>
+                    <h2 class="article_desc">Les tendances éducatives de 2023</h2>
+                    <p class="p">Découvrez les nouvelles méthodes d'apprentissage.</p>
+                    <a href="#" class="read-more">Lire plus &gt;</a>
+                </div>
             </div>
-            <div class="categorie">
-                Éducation<span class="temps">5 min lecture</span>
-            </div>
-            <h3 class="titre">Les tendances éducatives de 2023</h3>
-            <p class="description">Découvrez les nouvelles méthodes d'apprentissage qui transforment l'éducation aujourd'hui.</p>
-            <a href="articles/article1" class="lien">Lire plus</a>
-        </article>
 
-        <!-- Article 2 -->
-        <article class="article">
-            <div class="image">
-                <img src="image.png" alt="Image article">
+            <!-- ARTICLE 2 -->
+            <div class="card">
+                <div class="image-container">
+                    <img src="G.jpg" alt="Article 2">
+                </div>
+                <div class="cont">
+                    <div class="tag">Technologie</div>
+                    <span class="reading-time">5 min lecture</span>
+                    <h2 class="artivke_desc">L'impact de la technologie sur l'éducation</h2>
+                    <p class="p">Comment la technologie redéfinit l'apprentissage.</p>
+                    <a href="#" class="read-more">Lire plus &gt;</a>
+                </div>
             </div>
-            <div class="categorie">
-                Technologie<span class="temps">7 min lecture</span>
-            </div>
-            <h3 class="titre">L'impact de la technologie sur l'éducation</h3>
-            <p class="description">Comment la technologie redéfinit l'apprentissage dans les salles de classe modernes.</p>
-            <a href="articles/article2" class="lien">Lire plus</a>
-        </article>
 
-        <!-- Article 3 -->
-        <article class="article">
-            <div class="image">
-                <img src="image.png" alt="Image article">
+            <!-- ARTICLE 3 -->
+            <div class="card">
+                <div class="image-container">
+                    <img src="G.jpg" alt="Article 3">
+                </div>
+                <div class="cont">
+                    <div class="tag">Inspiration</div>
+                    <span class="reading-time">5 min lecture</span>
+                    <h2 class="article_desc">Histoires de réussite d'étudiants</h2>
+                    <p class="p">Inspirez-vous des parcours de ceux qui ont réussi.</p>
+                    <a href="#" class="read-more">Lire plus &gt;</a>
+                </div>
             </div>
-            <div class="categorie">
-                Inspiration<span class="temps">5 min lecture</span>
+            <!-- ARTICLE 4 -->
+            <div class="card">
+                <div class="image-container">
+                    <img src="G.jpg" alt="Article 1">
+                </div>
+                <div class="cont">
+                    <div class="tag">Éducation</div>
+                    <span class="reading-time">5 min lecture</span>
+                    <h2 class="article_desc">Les tendances éducatives de 2023</h2>
+                    <p class="p">Découvrez les nouvelles méthodes d'apprentissage.</p>
+                    <a href="#" class="read-more">Lire plus &gt;</a>
+                </div>
             </div>
-            <h3 class="titre">Histoires de réussite d'étudiants</h3>
-            <p class="description">Inspirez-vous des parcours de ceux qui ont réussi.</p>
-            <a href="articles/article3" class="lien">Lire plus</a>
-        </article>
 
-        <!-- Article 4 -->
-        <article class="article">
-            <div class="image">
-                <img src="image.png" alt="Image article">
+            <!-- ARTICLE 5 -->
+            <div class="card">
+                <div class="image-container">
+                    <img src="G.jpg" alt="Article 2">
+                </div>
+                <div class="cont">
+                    <div class="tag">Technologie</div>
+                    <span class="reading-time">5 min lecture</span>
+                    <h2 class="article_desc">L'impact de la technologie sur l'éducation</h2>
+                    <p class="p">Comment la technologie redéfinit l'apprentissage.</p>
+                    <a href="#" class="read-more">Lire plus &gt;</a>
+                </div>
             </div>
-            <div class="categorie">
-                Conseils<span class="temps">4 min lecture</span>
-            </div>
-            <h3 class="titre">Comment gérer son temps efficacement</h3>
-            <p class="description">Des stratégies pour maximiser votre productivité au quotidien.</p>
-            <a href="articles/article4" class="lien">Lire plus</a>
-        </article>
 
-        <!-- Article 5 -->
-        <article class="article">
-            <div class="image">
-                <img src="image.png" alt="Image article">
+            <!-- ARTICLE 6 -->
+            <div class="card">
+                <div class="image-container">
+                    <img src="G.jpg" alt="Article 3">
+                </div>
+                <div class="cont">
+                    <div class="tag">Inspiration</div>
+                    <span class="reading-time">5 min lecture</span>
+                    <h2 class="article_desc">Histoires de réussite d'étudiants</h2>
+                    <p class="p">Inspirez-vous des parcours de ceux qui ont réussi.</p>
+                    <a href="#" class="read-more">Lire plus &gt;</a>
+                </div>
             </div>
-            <div class="categorie">
-                Éducation<span class="temps">5 min lecture</span>
+            <!-- ARTICLE 7 -->
+            <div class="card">
+                <div class="image-container">
+                    <img src="G.jpg" alt="Article 1">
+                </div>
+                <div class="cont">
+                    <div class="tag">Éducation</div>
+                    <span class="reading-time">5 min lecture</span>
+                    <h2 class="article_desc">Les tendances éducatives de 2023</h2>
+                    <p class="p">Découvrez les nouvelles méthodes d'apprentissage.</p>
+                    <a href="#" class="read-more">Lire plus &gt;</a>
+                </div>
             </div>
-            <h3 class="titre">Les meilleures ressources pour étudiants</h3>
-            <p class="description">Découvrez des outils qui peuvent vous aider dans vos études.</p>
-            <a href="articles/article5" class="lien">Lire plus</a>
-        </article>
 
-        <!-- Article 6 -->
-        <article class="article">
-            <div class="image">
-                <img src="image.png" alt="Image article">
+            <!-- ARTICLE 8 -->
+            <div class="card">
+                <div class="image-container">
+                    <img src="G.jpg" alt="Article 2">
+                </div>
+                <div class="cont">
+                    <div class="tag">Technologie</div>
+                    <span class="reading-time">5 min lecture</span>
+                    <h2 class="article_desc">L'impact de la technologie sur l'éducation</h2>
+                    <p class="p">Comment la technologie redéfinit l'apprentissage.</p>
+                    <a href="#" class="read-more">Lire plus &gt;</a>
+                </div>
             </div>
-            <div class="categorie">
-                Inspiration<span class="temps">6 min lecture</span>
+
+            <!-- ARTICLE 9 -->
+            <div class="card">
+                <div class="image-container">
+                    <img src="G.jpg" alt="Article 3">
+                </div>
+                <div class="cont">
+                    <div class="tag">Inspiration</div>
+                    <span class="reading-time">5 min lecture</span>
+                    <h2 class="article_desc">Histoires de réussite d'étudiants</h2>
+                    <p class="p">Inspirez-vous des parcours de ceux qui ont réussi.</p>
+                    <a href="#" class="read-more">Lire plus &gt;</a>
+                </div>
             </div>
-            <h3 class="titre">Surmonter les défis académiques</h3>
-            <p class="description">Des conseils pour faire face aux obstacles dans votre parcours éducatif.</p>
-            <a href="articles/article6" class="lien">Lire plus</a>
-        </article>
-        </section>
-    </main>
-    <footer class="pied">
-        <div class="copyright">Copyright 2024 - ANATO Elysé</div>
-        <div class="social">
-            <a href="https://www.facebook.com/elysman"><img src="images/logo/facebook.png" alt="Facebook" class="social-img"></a>
-            <a href="https://www.instagram.com/elyse142023"><img src="images/logo/instagram.png" alt="Instagram" class="social-img"></a>
-            <a href="https://www.twitter.com/elysman"><img src="images/logo/x.png" alt="X" class="social-img"></a>
-            <a href="https://www.linkedin.com"><img src="images/logo/linkedin.png" alt="LinkedIn" class="social-img"></a>
-            <a href="https://www.youtube.com/pajax"><img src="images/logo/youtube.png" alt="YouTube" class="social-img"></a>
+                 <!-- ARTICLE 10 -->
+            <div class="card">
+                <div class="image-container">
+                    <img src="G.jpg" alt="Article 3">
+                </div>
+                <div class="cont">
+                    <div class="tag">Inspiration</div>
+                    <span class="reading-time">5 min lecture</span>
+                    <h2 class="article_desc">Histoires de réussite d'étudiants</h2>
+                    <p class="p">Inspirez-vous des parcours de ceux qui ont réussi.</p>
+                    <a href="#" class="read-more">Lire plus &gt;</a>
+                </div>
+            </div>
+
         </div>
-    </footer>
+    </div>
+
+
 </body>
-  </html>
+</html>
