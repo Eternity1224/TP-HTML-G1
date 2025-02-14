@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
     <head>
-        <meta charset="uft-8">
-        <title>A propos de Moi</title>
+        <meta charset="UTF-8">
+        <title>A propos</title>
         <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" type="image/png" href="images/log.png">
+        <link rel="icon" type="image/png" href="logo.png">
+        <script src="js/script.js"></script>
     </head>
-    <script src="js/script.js"></script>
-    <body>
-<!-- En-tête de la page -->
-       <header id="tete">
+    <body >
+        
+            <header id="tete">
                 <img src="images/log.png" >
                     <nav id="nagivation">
                         <ul>
@@ -20,393 +20,394 @@
                         </ul>
                     </nav>
                     </header>
-                    <section id="Section_entete">
-                        <h1>A Propos</h1>
-                        <p>Je suis passionné par le cinéma et la littérature, des domaines qui nourrissent mon imagination et élargissent mes horizons. J'aime explorer de nouveaux endroits et rencontrer des gens intéressants dont les histoires enrichissent ma perspective sur la vie.</p>
-                    </section>  
+                   
+              <main id="main_apropos">
+                <section id="Section_entete">
+                    <h1>A Propos</h1>
+                    <p id="pt">Je suis passionné par le cinéma et la littérature, des domaines qui nourrissent mon imagination et élargissent mes horizons. J'aime explorer de nouveaux endroits et rencontrer des gens intéressants dont les histoires enrichissent ma perspective sur la vie.</p>
+                </section>  
 
-                                  <!--************************SECTION EDUCATION************************-->
-                            
-                   <section class="Section_parcourt">
-                        <h5>Éducation</h5>
-                        <h1> Mon Parcours Académique</h1>
+                              <!--************************SECTION EDUCATION************************-->
+                        
+               <section class="Section_parcourt">
+                    <h5>Éducation</h5>
+                    <h1> Mon Parcours Académique</h1>
+                    <p> Découvrez les différents établissements scolaires que j'ai eu l'opportunité de fréquenter au 
+                        cours de mon parcours éducatif, chacun d'eux jouant un rôle significatif dans ma formation et 
+                        mon développement personnel</p>
+                </section> 
+
+
+                             
+                                <!--************************LIGNE INTERACTIVE************************-->
+
+                                
+                                    <div id="ligne_interactive">
+                                        <div class="ligne_extremite"   data-line="2014"></div>
+                                
+                                        <div class="annee">
+                                            <div class="an" >2014</div>
+                                            <div onclick="Info(2014)"><div class="cercle" data-line="2014"></div></div>
+                                        </div>
+                                
+                                        <div class="ligne" data-line="2015"></div>
+                                        <div class="annee">
+                                            <div class="an">2015</div>
+                                            <div onclick="Info(2015)"><div class="cercle" data-line="2015"></div></div>
+                                        </div>
+                                
+                                        <div class="ligne" data-line="2019"></div>
+                                        <div class="annee">
+                                            <div class="an">2019</div>
+                                            <div onclick="Info(2019)"><div class="cercle" data-line="2019" ></div></div>
+                                        </div>
+                                
+                                        <div class="ligne" data-line="2023"></div>
+                                        <div class="annee">
+                                            <div class="an">2023</div>
+                                            <div onclick="Info(2023)"><div class="cercle" data-line="2023" ></div></div>
+                                        </div>
+                                
+                                        <div class="ligne_extremite" data-line="0000"></div>
+                                    </div>
+                                
+                                  
+                                
+                                                         
+             <!--************************SECTION ETABLISSEMENT************************-->
+                <section id="Section_etablissement">
+                    <div class="div_etablissement">
+                        <h1 id="nom">Établissement 1</h1>
+                        <h2 id="ville">Ville1,pays1</h2>
+                        <p id="detaille">Début de mon parcours scolaire dans une école renommée.</p>
+                        <button>En savoir plus</button>
+                        <a href="">Contact > </a>
+                    </div>
+                   
+                    <img id="image" src="images/ll.webp" alt="">
+
+                </section>
+                   
+                              <!--************************SECTION EXPERIENCE************************-->
+                <section id="Section_experience">
+                    <section class="Section_parcourt">
+                        <h5>Expérience</h5>
+                        <h1> Mon Parcours Professionnel</h1>
                         <p> Découvrez les différents établissements scolaires que j'ai eu l'opportunité de fréquenter au 
                             cours de mon parcours éducatif, chacun d'eux jouant un rôle significatif dans ma formation et 
                             mon développement personnel</p>
                     </section> 
 
-
-                                 
-                                    <!--************************LIGNE INTERACTIVE************************-->
-
-                                    
-                                        <div id="ligne_interactive">
-                                            <div class="ligne_extremite"   data-line="2014"></div>
-                                    
-                                            <div class="annee">
-                                                <div class="an" >2014</div>
-                                                <div onclick="Info(2014)"><div class="cercle" data-line="2014"></div></div>
-                                            </div>
-                                    
-                                            <div class="ligne" data-line="2015"></div>
-                                            <div class="annee">
-                                                <div class="an">2015</div>
-                                                <div onclick="Info(2015)"><div class="cercle" data-line="2015"></div></div>
-                                            </div>
-                                    
-                                            <div class="ligne" data-line="2019"></div>
-                                            <div class="annee">
-                                                <div class="an">2019</div>
-                                                <div onclick="Info(2019)"><div class="cercle" data-line="2019" ></div></div>
-                                            </div>
-                                    
-                                            <div class="ligne" data-line="2023"></div>
-                                            <div class="annee">
-                                                <div class="an">2023</div>
-                                                <div onclick="Info(2023)"><div class="cercle" data-line="2023" ></div></div>
-                                            </div>
-                                    
-                                            <div class="ligne_extremite" data-line="0000"></div>
+                                  <!--************************SECTION ENTREPRISE************************-->
+                                  <section id="Section_entreprise">
+                                    <div class="Section_entreprise">
+                                        <div class="ligneextrem" ></div>
+                                        <div class="cercle1"></div>
+                                        <div class="ligne1"></div>
+                                        <div class="cercle1"></div>
+                                        <div class="ligne1"></div>
+                                        <div class="cercle1"></div>
+                                        <div class="ligne1"></div>
+                                        <div class="cercle1"></div>
+                                        <div class="ligne1"></div>
+                                        
+                                    </div>
+                                    <div id="div_entreprise">
+                                        <div class="div_entreprise">
+                                            <h2>Entreprise1</h2>
+                                            <h3>Poste</h3>
+                                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt ipsum in augue 
+                                                dignissim, nec suscipit ante volutpat. Pellentesque laoreet felis odio, id dictum erat varius sed. 
+                                                Phasellus maximus ante sit amet turpis bibendum done</p>
                                         </div>
-                                    
-                                      
-                                    
-                                                             
-                 <!--************************SECTION ETABLISSEMENT************************-->
-                    <section id="Section_etablissement">
-                        <div class="div_etablissement">
-                            <h1 id="nom">Établissement 1</h1>
-                            <h2 id="ville">Ville1,pays1</h2>
-                            <p id="detaille">Début de mon parcours scolaire dans une école renommée.</p>
-                            <button>En savoir plus</button>
-                            <a href="">Contact > </a>
-                        </div>
-                       
-                        <img id="image" src="images/ll.webp" alt="">
-
-                    </section>
-                       
-                                  <!--************************SECTION EXPERIENCE************************-->
-                    <section id="Section_experience">
-                        <section class="Section_parcourt">
-                            <h5>Expérience</h5>
-                            <h1> Mon Parcours Professionnel</h1>
-                            <p> Découvrez les différents établissements scolaires que j'ai eu l'opportunité de fréquenter au 
-                                cours de mon parcours éducatif, chacun d'eux jouant un rôle significatif dans ma formation et 
-                                mon développement personnel</p>
-                        </section> 
-
-                                      <!--************************SECTION ENTREPRISE************************-->
-                                      <section id="Section_entreprise">
-                                        <div class="Section_entreprise">
-                                            <div class="ligneextrem" ></div>
-                                            <div class="cercle1"></div>
-                                            <div class="ligne1"></div>
-                                            <div class="cercle1"></div>
-                                            <div class="ligne1"></div>
-                                            <div class="cercle1"></div>
-                                            <div class="ligne1"></div>
-                                            <div class="cercle1"></div>
-                                            <div class="ligne1"></div>
-                                            
+                                        <div class="div_entreprise">
+                                            <h2>Entreprise1</h2>
+                                            <h3>Poste</h3>
+                                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt ipsum in augue 
+                                                dignissim, nec suscipit ante volutpat. Pellentesque laoreet felis odio, id dictum erat varius sed. 
+                                                Phasellus maximus ante sit amet turpis bibendum done</p>
                                         </div>
-                                        <div id="div_entreprise">
-                                            <div class="div_entreprise">
-                                                <h2>Entreprise1</h2>
-                                                <h3>Poste</h3>
-                                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt ipsum in augue 
-                                                    dignissim, nec suscipit ante volutpat. Pellentesque laoreet felis odio, id dictum erat varius sed. 
-                                                    Phasellus maximus ante sit amet turpis bibendum done</p>
-                                            </div>
-                                            <div class="div_entreprise">
-                                                <h2>Entreprise1</h2>
-                                                <h3>Poste</h3>
-                                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt ipsum in augue 
-                                                    dignissim, nec suscipit ante volutpat. Pellentesque laoreet felis odio, id dictum erat varius sed. 
-                                                    Phasellus maximus ante sit amet turpis bibendum done</p>
-                                            </div>
-                                            <div class="div_entreprise">
-                                                <h2>Entreprise1</h2>
-                                                <h3>Poste</h3>
-                                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt ipsum in augue 
-                                                    dignissim, nec suscipit ante volutpat. Pellentesque laoreet felis odio, id dictum erat varius sed. 
-                                                    Phasellus maximus ante sit amet turpis bibendum done</p>
-                                            </div>
-                                            <div class="div_entreprise">
-                                                <h2>Entreprise1</h2>
-                                                <h3>Poste</h3>
-                                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt ipsum in augue 
-                                                    dignissim, nec suscipit ante volutpat. Pellentesque laoreet felis odio, id dictum erat varius sed. 
-                                                    Phasellus maximus ante sit amet turpis bibendum done</p>
-                                            </div>
+                                        <div class="div_entreprise">
+                                            <h2>Entreprise1</h2>
+                                            <h3>Poste</h3>
+                                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt ipsum in augue 
+                                                dignissim, nec suscipit ante volutpat. Pellentesque laoreet felis odio, id dictum erat varius sed. 
+                                                Phasellus maximus ante sit amet turpis bibendum done</p>
                                         </div>
-                                   
-                                    </section>
-                                       
-                    
-                                     </section>
-
-
-                                  <!--************************SECTION COMPETENCE************************-->
-                    <section id="Section_Competence" >
-                        <h5>Compétences</h5>
-                        <h1>Découvrez mes compétences et 
-                            expertises clés</h1>
-                            <p> Je possède un ensemble de compétences variées qui me permettent de m'adapter à différents 
-                                environnements. Mon expertise se concentre sur la communication, la gestion de projet et 
-                                l'analyse de données</p>
+                                        <div class="div_entreprise">
+                                            <h2>Entreprise1</h2>
+                                            <h3>Poste</h3>
+                                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt ipsum in augue 
+                                                dignissim, nec suscipit ante volutpat. Pellentesque laoreet felis odio, id dictum erat varius sed. 
+                                                Phasellus maximus ante sit amet turpis bibendum done</p>
+                                        </div>
+                                    </div>
                                
-                    </section>
-                    <section id="Section_competence">
-                         <span class="competence">
-                                 <h2>Compétence 1</h2>
-                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Suspendisse varius enim in eros elementum tristique. 
-                                 Duis cursus, mi quis viverra ornare, eros dolor interdum 
-                                 nulla</p>
-                         </span>
-                        
-                         <span class="competence">
-                            <h2>Compétence 2</h2>
-                           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                           Suspendisse varius enim in eros elementum tristique. 
-                            Duis cursus, mi quis viverra ornare, eros dolor interdum 
-                            nulla</p>
-                    </span>
-            
-                    <span class="competence">
-                        <h2>Compétence 3</h2>
+                                </section>
+                                   
+                
+                                 </section>
+
+
+                              <!--************************SECTION COMPETENCE************************-->
+                <section id="Section_Competence" >
+                    <h5>Compétences</h5>
+                    <h1>Découvrez mes compétences et 
+                        expertises clés</h1>
+                        <p> Je possède un ensemble de compétences variées qui me permettent de m'adapter à différents 
+                            environnements. Mon expertise se concentre sur la communication, la gestion de projet et 
+                            l'analyse de données</p>
+                           
+                </section>
+                <section id="Section_competence">
+                     <span class="competence">
+                             <h2>Compétence 1</h2>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Suspendisse varius enim in eros elementum tristique. 
+                             Duis cursus, mi quis viverra ornare, eros dolor interdum 
+                             nulla</p>
+                     </span>
+                    
+                     <span class="competence">
+                        <h2>Compétence 2</h2>
                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                        Suspendisse varius enim in eros elementum tristique. 
                         Duis cursus, mi quis viverra ornare, eros dolor interdum 
                         nulla</p>
                 </span>
-                    </section>
+        
+                <span class="competence">
+                    <h2>Compétence 3</h2>
+                   <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                   Suspendisse varius enim in eros elementum tristique. 
+                    Duis cursus, mi quis viverra ornare, eros dolor interdum 
+                    nulla</p>
+            </span>
+                </section>
 
 
 
-                                  <!--************************SECTION ENGAGEMENT************************-->
-                    
-                                  
-                                
-                    <section id="Section_engagement">
-                        <h5>Engagement</h5>
-                        <h1>Mes Activités Extrascolaires</h1>
-                        <p> Mon parcours ne se limite pas à l'éducation académique. Je m'investis également dans diverses 
-                            activités qui enrichissent mon expérience personnelle et professionnelle</p>
-                    </section>
-
-                    <section id="Section_activite">
-                 
-                        <img id="activiteImages" src="images/Img1.jpg" alt="">
-                        <div id="div_activite">
-                            <div class="activite active" onclick="fonctionActivite(0)">
-                                <h2>Activité 1</h2>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in 
-                                    eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum 
-                                    nulla, ut commodo diam libero vitae erat.</p>
-                                 </div>
-                            <div class="activite" onclick="fonctionActivite(1)">
-                                <h2>Activité 2</h2>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in 
-                                    eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum 
-                                    nulla, ut commodo diam libero vitae erat.</p>
-                                 </div>
-                            <div class="activite" onclick="fonctionActivite(2)">
-                                <h2>Activité 3</h2>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in 
-                                    eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum 
-                                    nulla, ut commodo diam libero vitae erat.</p>
-                                 </div>
+                              <!--************************SECTION ENGAGEMENT************************-->
+                
+                              
                             
-                        </section>
-                               
+                <section id="Section_engagement">
+                    <h5>Engagement</h5>
+                    <h1>Mes Activités Extrascolaires</h1>
+                    <p> Mon parcours ne se limite pas à l'éducation académique. Je m'investis également dans diverses 
+                        activités qui enrichissent mon expérience personnelle et professionnelle</p>
+                </section>
+
+                <section id="Section_activite">
+             
+                    <img id="activiteImages" src="images/Img1.jpg" alt="">
+                    <div id="div_activite">
+                        <div class="activite active" onclick="fonctionActivite(0)">
+                            <h2>Activité 1</h2>
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in 
+                                eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum 
+                                nulla, ut commodo diam libero vitae erat.</p>
+                             </div>
+                        <div class="activite" onclick="fonctionActivite(1)">
+                            <h2>Activité 2</h2>
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in 
+                                eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum 
+                                nulla, ut commodo diam libero vitae erat.</p>
+                             </div>
+                        <div class="activite" onclick="fonctionActivite(2)">
+                            <h2>Activité 3</h2>
+                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in 
+                                eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum 
+                                nulla, ut commodo diam libero vitae erat.</p>
+                             </div>
+                        
                     </section>
-    
-                                      <!--************************SECTION PASSION************************-->
-                        <section id="Section_passion">
-                            <div id="div_passion">
-                                <h5>Passions</h5>
-                                <h1> Mes intérêts et passions</h1>
-                               
-                            </div>
-                            <p> Je suis profondément passionné par la musique, qui a le pouvoir d'évoquer 
-                                des émotions et de réunir les gens, et par l'innovation technologique, qui 
-                                transforme notre manière de vivre et de communiquer chaque jour. 
-                                J'apprécie également découvrir de nouvelles cultures et traditions chaque 
-                                fois que je voyage, ce qui enrichit ma perspective sur le monde et me permet 
-                                de me connecter avec des personnes venant de différents horizons </p>
                            
-                        </section>
-                        <section id="Section_interet">
-                            <span class="interet">
-                                <img src="images/icone.png" alt="">
-                                <h3>Intérêt1</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Suspendisse varius enim in eros elementum tristique. 
-                                    Duis cursus, mi quis viverra ornare, eros dolor interdum 
-                                    nulla</p>
-                            </span>
-                            <span class="interet">
-                                <img src="icone.png" alt="">
-                                <h3>Intérêt1</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Suspendisse varius enim in eros elementum tristique. 
-                                    Duis cursus, mi quis viverra ornare, eros dolor interdum 
-                                    nulla</p>
-                            </span>
-                            <span class="interet">
-                                <img src="images/icone.png" alt="">
-                                <h3>Intérêt1</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Suspendisse varius enim in eros elementum tristique. 
-                                    Duis cursus, mi quis viverra ornare, eros dolor interdum 
-                                    nulla</p>
-                            </span>
-                            <span class="interet">
-                                <img src="icone.png" alt="">
-                                <h3>Intérêt1</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Suspendisse varius enim in eros elementum tristique. 
-                                    Duis cursus, mi quis viverra ornare, eros dolor interdum 
-                                    nulla</p>
-                            </span>
-                         
+                </section>
+
+                                  <!--************************SECTION PASSION************************-->
+                    <section id="Section_passion">
+                        <div id="div_passion">
+                            <h5>Passions</h5>
+                            <h1> Mes intérêts et passions</h1>
+                           
                         </div>
-                        
-                    </section>
-                    
-
-                                  <!--************************SECTION AMBITION************************-->
-                    <section id="Section_ambition">
-                        <div id="div_ambition">
-                            <h5>Ambition</h5>
-                            <h1>Mes Objectifs de Carrière 
-                                pour l'Avenir</h1>
-                            </div>
-                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius 
-                                    enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros 
-                                    dolor interdum nulla, ut commodo diam libero vitae erat. Lorem ipsum dolor 
-                                    sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros 
-                                    elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum 
-                                    nulla, ut commodo diam libero vitae erat. Lorem ipsum dolor sit amet, 
-                                    consectetur adipiscing elit. Suspendisse varius enim in eros elementum 
-                                    tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut 
-                                    commodo diam libero vitae erat. Lorem ipsum dolor sit amet, consectetur 
-                                    adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis 
-                                    cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam 
-                                    libero vitae erat</p>
-                     
-                      
-                    </section>
-
-
-
-                                  <!--************************SECTION VOYAGE************************-->
-                    <section id="Section_voyage" >
-                        <div id="div_voyage">
-                            <h5>Voyages</h5>
-                            <h1> Mes expériences de voyage 
-                            inoubliables</h1>
-                        </div>
-                        
-                        <p>Chaque voyage a enrichi ma perspective sur le monde. Voici quelques lieux mémorables :</p>
-
-                    </section>
-                    <section id="Section_lieu">
-                        <div class="div_etablissement">
-                            <h1 id="lieu">Lieu 1</h1>
-                            <h2 id="date">Date1</h2>
-                            <p id="description"> Début de mon parcours scolaire dans une école renommée.</p>
-                            
-                        </div>
+                        <p> Je suis profondément passionné par la musique, qui a le pouvoir d'évoquer 
+                            des émotions et de réunir les gens, et par l'innovation technologique, qui 
+                            transforme notre manière de vivre et de communiquer chaque jour. 
+                            J'apprécie également découvrir de nouvelles cultures et traditions chaque 
+                            fois que je voyage, ce qui enrichit ma perspective sur le monde et me permet 
+                            de me connecter avec des personnes venant de différents horizons </p>
                        
-                        <img id="imag" src="Img2.jpg" alt="">
-
                     </section>
-               
-                   
-                    <div id="ligne_interactive">
-                        <div class="ligne_extremite" data-line="1"></div>
+                    <section id="Section_interet">
+                        <span class="interet">
+                            <img src="images/icone.png" alt="">
+                            <h3>Intérêt1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Suspendisse varius enim in eros elementum tristique. 
+                                Duis cursus, mi quis viverra ornare, eros dolor interdum 
+                                nulla</p>
+                        </span>
+                        <span class="interet">
+                            <img src="images/icone.png" alt="">
+                            <h3>Intérêt1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Suspendisse varius enim in eros elementum tristique. 
+                                Duis cursus, mi quis viverra ornare, eros dolor interdum 
+                                nulla</p>
+                        </span>
+                        <span class="interet">
+                            <img src="images/icone.png" alt="">
+                            <h3>Intérêt1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Suspendisse varius enim in eros elementum tristique. 
+                                Duis cursus, mi quis viverra ornare, eros dolor interdum 
+                                nulla</p>
+                        </span>
+                        <span class="interet">
+                            <img src="images/icone.png" alt="">
+                            <h3>Intérêt1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Suspendisse varius enim in eros elementum tristique. 
+                                Duis cursus, mi quis viverra ornare, eros dolor interdum 
+                                nulla</p>
+                        </span>
+                     
+                    </div>
+                    
+                </section>
+                
 
-                            
-                            <div class="ville" onclick="InfoV(1)">
-                                <div class="cercle3" data-line="1"></div>
-                                <div class="vil">Ville ou pays</div>
-                            </div>
-                            
-               
+                              <!--************************SECTION AMBITION************************-->
+                <section id="Section_ambition">
+                    <div id="div_ambition">
+                        <h5>Ambition</h5>
+                        <h1>Mes Objectifs de Carrière 
+                            pour l'Avenir</h1>
+                        </div>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius 
+                                enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros 
+                                dolor interdum nulla, ut commodo diam libero vitae erat. Lorem ipsum dolor 
+                                sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros 
+                                elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum 
+                                nulla, ut commodo diam libero vitae erat. Lorem ipsum dolor sit amet, 
+                                consectetur adipiscing elit. Suspendisse varius enim in eros elementum 
+                                tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut 
+                                commodo diam libero vitae erat. Lorem ipsum dolor sit amet, consectetur 
+                                adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis 
+                                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam 
+                                libero vitae erat</p>
+                 
+                  
+                </section>
+
+
+
+                              <!--************************SECTION VOYAGE************************-->
+                <section id="Section_voyage" >
+                    <div id="div_voyage">
+                        <h5>Voyages</h5>
+                        <h1> Mes expériences de voyage 
+                        inoubliables</h1>
+                    </div>
+                    
+                    <p>Chaque voyage a enrichi ma perspective sur le monde. Voici quelques lieux mémorables :</p>
+
+                </section>
+                <section id="Section_lieu">
+                    <div class="div_etablissement">
+                        <h1 id="lieu">Lieu 1</h1>
+                        <h2 id="date">Date1</h2>
+                        <p id="description"> Début de mon parcours scolaire dans une école renommée.</p>
                         
-                        <div class="ligne" data-line="2"></div>
-                        <div class="ville" onclick="InfoV(2)">
-                            <div class="cercle3" data-line="2"></div>
+                    </div>
+                   
+                    <img id="imag" src="images/Img.jpg" alt="">
+
+                </section>
+           
+               
+                <div id="ligne_interactive">
+                    <div class="ligne_extremite" data-line="1"></div>
+
+                        
+                        <div class="ville" onclick="InfoV(1)">
+                            <div class="cercle3" data-line="1"></div>
+                            <div class="vil">Ville ou pays</div>
+                        </div>
+                        
+           
+                    
+                    <div class="ligne" data-line="2"></div>
+                    <div class="ville" onclick="InfoV(2)">
+                        <div class="cercle3" data-line="2"></div>
+                        <div class="vil">Ville ou pays</div>
+                    </div>
+
+
+                    <div class="ligne" data-line="3"></div>
+                   <div class="ville" onclick="InfoV(3)">
+                            <div class="cercle3" data-line="3"></div>
                             <div class="vil">Ville ou pays</div>
                         </div>
 
 
-                        <div class="ligne" data-line="3"></div>
-                       <div class="ville" onclick="InfoV(3)">
-                                <div class="cercle3" data-line="3"></div>
-                                <div class="vil">Ville ou pays</div>
-                            </div>
-
-    
-                        <div class="ligne" data-line="4"></div>
-                       <div class="ville" onclick="InfoV(4)">
-                                <div class="cercle3" data-line="4"></div>
-                                <div class="vil">Ville ou pays</div>
-                            </div>
-
-
-                        <div class="ligne_extremite" data-line="5"></div>
-                    </div>
-
-
-
-
-                     <!--************************SECTION CITATION************************-->
-                    <section id="Secton_citation">
-                        <h1>******</h1>
-                        <blockquote>"À travers des défis et des obstacles, j'ai découvert ma force intérieure. 
-                            Chaque épreuve m'a appris à persévérer et à transformer les difficultés 
-                            en opportunités. Ces expériences ont forgé ma résilience et m'ont 
-                            permis de grandir."</blockquote>
-                    </section>
-
-
-
-                     <!--************************SECTION ASPIRATION************************-->
-                     <section id="Section_aspiration">
-                        <div>
-                            <h5>Avenir</h5>
-                            <h1>Mes aspirations pour un 
-                                futur prometteur</h1>
+                    <div class="ligne" data-line="4"></div>
+                   <div class="ville" onclick="InfoV(4)">
+                            <div class="cercle3" data-line="4"></div>
+                            <div class="vil">Ville ou pays</div>
                         </div>
-                        
-                            <p> Je rêve de bâtir une carrière enrichissante qui allie parfaitement mes 
-                                passions et mes compétences, tout en me permettant d’explorer de 
-                                nouvelles avenues. Mon objectif est de contribuer positivement à la société 
-                                de manière significative, tout en continuant à apprendre, à grandir et à 
-                                évoluer dans mon domaine. Je suis déterminé à saisir chaque opportunité 
-                                qui se présente à moi, car je crois fermement que chaque expérience, qu'elle 
-                                soit grande ou petite, peut me rapprocher de mes aspirations."</p>
-                                
-                     </section>
-                     <img src="images/ll.webp" alt="" id="image_end">
-              
+
+
+                    <div class="ligne_extremite" data-line="5"></div>
+                </div>
+
+
+
+
+                 <!--************************SECTION CITATION************************-->
+                <section id="Secton_citation">
+                    <h1>******</h1>
+                    <blockquote id="message">"À travers des défis et des obstacles, j'ai découvert ma force intérieure. 
+                        Chaque épreuve m'a appris à persévérer et à transformer les difficultés 
+                        en opportunités. Ces expériences ont forgé ma résilience et m'ont 
+                        permis de grandir."</blockquote>
+                </section>
+
+
+
+                 <!--************************SECTION ASPIRATION************************-->
+                 <section id="Section_aspiration">
+                    <div id="div_passion">
+                        <h5>Avenir</h5>
+                        <h1>Mes aspirations pour un 
+                            futur prometteur</h1>
+                    </div>
+                    
+                        <p> Je rêve de bâtir une carrière enrichissante qui allie parfaitement mes 
+                            passions et mes compétences, tout en me permettant d’explorer de 
+                            nouvelles avenues. Mon objectif est de contribuer positivement à la société 
+                            de manière significative, tout en continuant à apprendre, à grandir et à 
+                            évoluer dans mon domaine. Je suis déterminé à saisir chaque opportunité 
+                            qui se présente à moi, car je crois fermement que chaque expérience, qu'elle 
+                            soit grande ou petite, peut me rapprocher de mes aspirations."</p>
+                            
+                 </section>
+                 <img src="images/ll.webp" alt="" id="image_end">
+              </main>
                   
                     
-                  
-    <footer class="pied">
-    <div class="copyright">Copyright 2024 - ANATO Elysé</div>
-    <div class="social">
-        <a href="https://www.facebook.com/elysman"><img src="images/logo/facebook.png" alt="Facebook" class="social-img"></a>
-        <a href="https://www.instagram.com/elyse142023"><img src="images/logo/instagram.png" alt="Instagram" class="social-img"></a>
-        <a href="https://www.twitter.com/elysman"><img src="images/logo/x.png" alt="X" class="social-img"></a>
-        <a href="https://www.linkedin.com"><img src="images/logo/linkedin.png" alt="LinkedIn" class="social-img"></a>
-        <a href="https://www.youtube.com/pajax"><img src="images/logo/youtube.png" alt="YouTube" class="social-img"></a>
-    </div>
-</footer>
+                     <footer class="pied">
+                        <div class="copyright">Copyright 2024 - ANATO Elysé</div>
+                        <div class="social">
+                            <a href="https://www.facebook.com/elysman"><img src="images/logo/facebook.png" alt="Facebook" class="social-img"></a>
+                            <a href="https://www.instagram.com/elyse142023"><img src="images/logo/instagram.png" alt="Instagram" class="social-img"></a>
+                            <a href="https://www.twitter.com/elysman"><img src="images/logo/x.png" alt="X" class="social-img"></a>
+                            <a href="https://www.linkedin.com"><img src="images/logo/linkedin.png" alt="LinkedIn" class="social-img"></a>
+                            <a href="https://www.youtube.com/pajax"><img src="images/logo/youtube.png" alt="YouTube" class="social-img"></a>
+                        </div>
+                    </footer>
 </body>
 </html>
 
