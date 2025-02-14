@@ -368,14 +368,6 @@ margin-left: 35%;
     margin-top: 40px;
     border-top: 1px solid #ddd;
 }
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
 header {
     display: flex;
     justify-content: space-between;
@@ -507,7 +499,7 @@ blockquote {
 .logo_pied a img {
     width: 20px; /* Ajuster la taille des images */
     height: 20px;
-    filter: invert(1); /* Inverser la couleur des icônes pour qu'elles soient blanches */
+    filter: invert(1);
 }
 
 .logo_pied a:hover {
@@ -515,7 +507,6 @@ blockquote {
     background-color: #555; /* Changement de couleur au survol */
 }
 
-/****A Propos******/
 h1{
     font-size: 40px;
 }
@@ -789,7 +780,6 @@ button{
     margin-left: 3%;
 }
 
-/*********************************STYLE ENGAGEMENT***************************/
 #Section_engagement{
 
     margin-bottom: 5%;
@@ -849,7 +839,6 @@ blockquote{
 #image_end{
     width: 100%;
     height: 70%;
-   ;
 }
 
 
