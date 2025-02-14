@@ -629,22 +629,22 @@ margin: 40% auto;
 
 
 
-          .image-container {
-    width: 30%; 
-    height: 200px; 
-    border: 2px solid #333;
+       .image-container {
+    width: 100%;  /* Largeur du conteneur */
+    max-width: 500px; /* Taille maximale du conteneur */
+    height: 300px; /* Hauteur du conteneur */
+    border: 2px solid #000; /* Juste pour visualiser le conteneur */
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow: hidden; /* Empêche tout débordement */
 }
 
 .image-container img {
     width: 100%;
     height: 100%;
-    object-fit: contain; /* Empêche l'image d'être coupée et s'adapte au conteneur */
+    object-fit: contain; /* L'image s'adapte au conteneur sans être coupée */
 }
-
 
 
 
