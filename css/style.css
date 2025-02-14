@@ -568,6 +568,10 @@ button{
     margin-bottom: 15%;
     
 }
+
+.button_index{
+border : 1px solid black
+}
 #Section_competence{
     margin-top: -10%;
     display: flex;
