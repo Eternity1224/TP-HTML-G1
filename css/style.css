@@ -630,8 +630,8 @@ margin: 40% auto;
 
 
           .image-container {
-    width: 1000px; 
-    height: 200px; 
+    width: 500px; 
+    height: 300px; 
     border: 2px solid #333;
     display: flex;
     justify-content: center;
