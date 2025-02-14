@@ -630,8 +630,7 @@ margin: 40% auto;
 
 
        .image-container {
-    width: 700px;  /* Largeur du conteneur */
-    max-width: inherit; /* Taille maximale du conteneur */
+    width: 700px;  
     height: 300px; /* Hauteur du conteneur */
     border: 2px solid red; /* Juste pour visualiser le conteneur */
     display: flex;
@@ -642,6 +641,7 @@ margin: 40% auto;
 
 .image-container img {
     width: 100%;
+    max-widht: 100%;
     height: 100%;
     object-fit: contain; /* L'image s'adapte au conteneur sans être coupée */
 }
