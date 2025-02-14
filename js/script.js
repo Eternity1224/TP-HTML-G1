@@ -4,7 +4,7 @@ const infoAn = {
         nom: "Établissement 1",
         ville: "Ville1, Pays1",
         description: "Début de mon parcours scolaire dans une école renommée.",
-        image: "ll.webp"
+        image: "images/ll.webp"
     },
     2015: {
         nom: "Établissement 2",
@@ -16,13 +16,13 @@ const infoAn = {
         nom: "Établissement 3",
         ville: "Ville3, Pays3",
         description: "Développement de compétences avancées.",
-        image: "Img1.jpg"
+        image: "images/Img1.jpg"
     },
     2023: {
         nom: "Établissement 4",
         ville: "Ville4, Pays4",
         description: "Dernière étape avant un nouveau chapitre.",
-        image: "Img.jpg"
+        image: "images/Img.jpg"
     }
 };
 
@@ -102,25 +102,25 @@ const infoVil = {
         nom: "Lieu 1",
         ville: "Date1",
         description: "Début de mon parcours scolaire dans une école renommée.",
-        image: "Img2.jpg"
+        image: "images/Img2.jpg"
     },
     2: {
         nom: "Lieu 2",
         ville: "Date2",
         description: "Début de mon parcours scolaire dans une école renommée.",
-        image: "Img1.jpg"
+        image: "images/Img1.jpg"
     },
    3: {
         nom: "Lieu 3",
         ville: "Date3",
         description: "Début de mon parcours scolaire dans une école renommée.",
-        image: "Img2.jpg"
+        image: "images/Img2.jpg"
     },
     4: {
         nom: "Lieu 4",
         ville: "Date4",
         description: "Début de mon parcours scolaire dans une école renommée.",
-        image: "Img.jpg"
+        image: "images/Img.jpg"
     }
 };
 
@@ -201,7 +201,7 @@ function InfoV(vil) {
 
 
 
-        const images = ["Img1.jpg", "Img2.jpg", "Img.jpg"];
+        const images = ["images/Img1.jpg", "images/Img2.jpg", "images/Img.jpg"];
        
      
         function fonctionActivite(index) {
