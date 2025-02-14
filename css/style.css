@@ -636,7 +636,7 @@ margin: 40% auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    
 }
 
 .image-container img {
