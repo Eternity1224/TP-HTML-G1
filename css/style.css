@@ -689,21 +689,6 @@ margin: 40% auto;
             font-weight: bold;
         }
 
-
-
-body{
-    margin: 40px;
-}
-header{
-    display: block;
-    border-bottom: 3px dotted black;
-    display: flex;
-}
-nav{
-
-
-
-}
 ul{
 
     display: flex;
@@ -718,7 +703,6 @@ ul li{
     display: inline;
 
 }
-/**********************A Prpos********************/
 h1{
     font-size: 40px;
 }
