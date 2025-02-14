@@ -74,6 +74,9 @@
             display: block;
             margin-bottom: 8px;
         }
+        .containt_presentation{
+            margin-top: -25%;
+        }
         .poffe{
                 width: 40%;
                 text-align: justify;
@@ -83,9 +86,7 @@
             display: flex;
         }
 .ma{
-            display: block;
-            margin: 0 auto;
-            width: 100%;
+            width: 50%;
 }
         input, select, textarea {
             width: 100%;
@@ -93,7 +94,11 @@
             border: 1px solid #ccc;
             border-radius: 4px;
         }
-
+#pt{
+    width: 40%;
+    text-align: justify;
+    text-align: center;
+}
         textarea {
             height: 150px;
             resize: vertical;
@@ -125,14 +130,6 @@
 
         .checkbox-group input {
             width: auto;
-        }
-
-        .button_index {
-            background: black;
-            color: white;
-            padding: 12px 24px;
-            border: none;
-            cursor: pointer;
         }
 
         .contact-info {
@@ -183,7 +180,7 @@
             justify-content: space-between;
             align-items: center;
             gap: -3px;
-width: 250px;
+            width: 250px;
         }
         .social{
             display: flex;
@@ -252,14 +249,10 @@ text-align: left;
     width: 350px;
     height: 450px;
 }
-.lit{
-        list-style-image: url('images/cube.png');
-        margin-left: 20px; 
-}
 .poff{
         text-align: center;
         margin: 0 auto;
-        width: 80%;   
+        width: 50%;   
 }
 .containt_presentation{
     display: flex;
@@ -292,10 +285,6 @@ margin-right: 20%;
 .toutt{
 display: flex;
 gap: 5px;
-}
-.star{
-margin-left: 25%;
-margin-right: 25%;
 }
 .name{
 text-align: center;
@@ -384,7 +373,20 @@ header {
     font-size: 16px;
     cursor: pointer;
     border-radius: 0;
+    max-width: 123px auto;
 }
+.button_index{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0;
+    max-width: 123px auto;
+
+}
+
 
 .logo {
     font-size: 24px;
@@ -507,76 +509,8 @@ blockquote {
     background-color: #555; /* Changement de couleur au survol */
 }
 
-h1{
-    font-size: 40px;
-}
-a{
-    text-decoration: none;
-}
-.div_etablissement h2,h1,#Section_lieu h2{
-    
-    margin-top: 0;
-}
-#Section_entete h1,#Secton_citation h1{
-    margin-top: 5%;
-    text-align: center;
-}
-#Section_entete p{
-    margin-bottom: 15%;
-    text-align: center;
-    margin-right: 30%;
-    margin-left: 30%;
-}
 
-.Section_parcourt,#Section_Competence{
-    
-    margin-right: 45%;
-    margin-bottom: 15%;
-    
-}
 
-.div_etablissement h1,h5{
-   margin-bottom: 2%;
-}
-#Section_etablissement img, #Section_activite img,#Section_lieu img {
-    width: 45%;
-    height: 550PX;
-
-    
-}
-button{
-    padding: 10px;
-    margin: 20px 20px 0 0;
-}
-.div_etablissement{
-    
-    margin: 170px 30px 80px 30px;
-}
-#Section_etablissement,#Section_activite,#Section_lieu{
-   margin-bottom: 15%;
-    display: flex;
-   
-}
-
-#Section_experience{
-    margin-left: 18%;
-    
-}
-.div_entreprise{
-    margin-left: 5%;
-
-    margin-bottom: 15%;
-    
-}
-
-.button_index{
-border : 1px solid black
-}
-#Section_competence{
-    margin-top: -10%;
-    display: flex;
-    margin-bottom: 15%;
-}
 .article-pite{
     padding: 40px;
 }
@@ -629,30 +563,21 @@ margin: 40% auto;
 
 
 
-       .image-container {
-    width: 700px;  
-    height: 300px; /* Hauteur du conteneur */
-    border: 2px solid red; /* Juste pour visualiser le conteneur */
+          .image-container {
+    width: 400px; 
+    height: 200px; 
+    border: 2px solid #333;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden; /* Empêche tout débordement */
+    overflow: hidden;
 }
 
 .image-container img {
     width: 100%;
-    max-widht: 100%;
     height: 100%;
-    object-fit: contain; /* L'image s'adapte au conteneur sans être coupée */
+    object-fit: contain; /* Empêche l'image d'être coupée et s'adapte au conteneur */
 }
-
-
-
-
-
-
-
-
 
 
         .cont {
@@ -693,20 +618,147 @@ margin: 40% auto;
             font-weight: bold;
         }
 
-ul{
+        .button_index{
+            border : 1px solid black
+            }   
 
+
+            .part2{
+                display: flex;
+                gap: 50px;
+                width: 47%;
+            }
+            .lit{
+                list-style-image: url('../images/cube.png');
+                margin-left: 20px; 
+            }
+            .part{
+                margin-top: 30%;
+            }
+            .matofs{
+                display: block;
+                margin: 0 auto;
+                margin-top: 15%;
+                width: 350px;
+                height: 450px;
+            }
+            .star{
+                display: block;
+                margin: 0 auto;
+                }
+            .containt_presentations{
+                display: flex;
+                gap: 10%;
+            }
+            
+            
+            
+            
+            
+            @media (max-width: 768px) {
+                        .contact-grid {
+                            grid-template-columns: 1fr;
+                        }
+            
+                        .form-row {
+                            grid-template-columns: 1fr;
+                        }
+                    }
+            
+
+                    ul{
+
+                        display: flex;
+                        margin: 0px;
+                        align-content: center;
+                        gap: 30px;
+                    }
+                    
+                    ul li{
+                        list-style-type: none;
+                    
+                        display: inline;
+                    
+                    }
+
+
+
+/**********************A Propos********************/
+#main_apropos{
+    margin: 40px;
+}
+
+h1{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+}
+.div_etablissement h2,h1,#Section_lieu h2{
+    
+    margin-top: 0;
+}
+#Section_entete h1,#Secton_citation h1{
+    margin-top: 5%;
+    
+    text-align: center;
+}
+
+#Section_entete p{
+    margin-bottom: 15%;
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.Section_parcourt,#Section_Competence{
+    
+    margin-bottom: 15%;
+    margin-right: 45%;
+    margin-bottom: 15%;
+    width: 60%;
+    
+}
+
+.div_etablissement h1,h5{
+   margin-bottom: 2%;
+}
+#Section_etablissement img, #Section_activite img,#Section_lieu img {
+    width: 45%;
+    height: 550PX;
+
+    
+}
+button{
+    padding: 10px;
+    margin: 20px 20px 0 0;
+}
+.div_etablissement{
+    
+    margin: 170px 30px 80px 30px;
+}
+#Section_etablissement,#Section_activite,#Section_lieu{
+   margin-bottom: 15%;
     display: flex;
-    margin: 0px;
-    align-content: center;
-    gap: 30px;
+   
 }
 
-ul li{
-    list-style-type: none;
 
-    display: inline;
+.div_entreprise{
+    margin-left: 5%;
 
+    margin-bottom: 15%;
+    
 }
+p{
+    text-align: justify;
+}
+#Section_competence{
+    margin-top: -10%;
+    display: flex;
+    margin-bottom: 15%;
+}
+
 h1{
     font-size: 40px;
 }
@@ -728,15 +780,10 @@ a{
     margin-left: 30%;
 }
 
-.Section_parcourt,#Section_Competence{
 
-    margin-right: 45%;
-    margin-bottom: 15%;
 
-}
-
-.div_etablissement h1,h5{
-   margin-bottom: 2%;
+.div_etablissement h1, .div_etablissement h2 {
+   margin-bottom: 20px;
 }
 #image{
     width: 45%;
@@ -772,17 +819,28 @@ button{
 
 #Section_experience{
     margin-left: 18%;
+    
 
 }
 .div_entreprise{
 
     margin-left: 5%;
-    margin-top: 5%;
-    margin-bottom: 15%;
+    margin-top: 7%;
+    
 
 }
+.div_entreprise h2,.div_entreprise h3{
+
+    margin-bottom: 5%;
+
+}
+
+#Section_Competence{
+  margin-top: 15%;
+}
+
 #Section_competence{
-    margin-top: -10%;
+    
     display: flex;
     margin-bottom: 15%;
 }
@@ -801,10 +859,14 @@ button{
     margin-left: 20%;
 }
 #div_activite{
-    margin: 70px 0 0 60px;
+    margin: 30px 0 0 60px;
+}
+.activite h2,.activite p{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .activite{
-
+    
     border-bottom: 3px solid black;
 }
 
@@ -814,7 +876,11 @@ button{
 }
 #Section_passion p{
     width: 45%;
-    margin-left: 15%;
+   
+}
+#div_passion{
+  
+    width: 60%;
 }
 #Section_interet{
     display: flex;
@@ -827,27 +893,35 @@ button{
 
 .interet,.interet img{
     width: 25%;
+    
     margin-left: 2%;
 }
+.interet p{
+    margin-top: 15px;
+}
 
+.interet img{
+    margin-bottom: 15px;
+}
 #Section_ambition{
     margin-bottom: 15%;
 }
 #Section_ambition p,#Section_voyage p,#Section_aspiration p{
     width: 55%;
-    margin-left: 5%;
+    margin-left: 3%;
 }
 #Section_ambition h1,#Section_aspiration h1{
-    width: 80%;
+    width: 90%;
 
 }
-blockquote{
+#message{
     margin-bottom: 15%;
     text-align: center;
     width: 50%;
     margin-left: 25%;
     font-weight: bolder;
     font-size: large;
+    
 }
 #image_end{
     width: 100%;
@@ -908,8 +982,8 @@ blockquote{
 }
 .ligne1{
     margin-left: 5px;
-    width: 5px;
-    height: 200px;
+    width: 3px;
+    height: 220px;
     background-color: black;
 }
 #Section_entreprise{
@@ -922,8 +996,8 @@ blockquote{
 .cercle1{
     background-color: black;
     border-radius: 50%;
-    width: 15px;
-    height: 15px; 
+    width: 12px;
+    height: 12px; 
     margin: 5px 0 5px 0;
 
 }
@@ -935,13 +1009,11 @@ blockquote{
 }
 .ligneextrem{
     margin-left: 5px;
-    width: 5px;
-    height: 50px;
+    width: 3px;
+    height: 30px;
     background-color: black;
 }
-#actives{
 
-}
 .activite{
     color: gray;
 
@@ -953,22 +1025,3 @@ blockquote{
 .activ{
     background-color: gray;
 }
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 768px) {
-            .contact-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .form-row {
-                grid-template-columns: 1fr;
-            }
-        }
