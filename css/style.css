@@ -642,7 +642,7 @@ margin: 40% auto;
 .image-container img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Empêche l'image d'être coupée et s'adapte au conteneur */
+    object-fit: contain; /* Empêche l'image d'être coupée et s'adapte au conteneur */
 }
 
 
