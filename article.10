@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="uft-8">
+        <title>Acceuil</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="icon" type="image/png" href="../images/logo.webp">
+    </head>
+    <body>
+<!-- En-tête de la page -->
+       <header id="tete">
+                <img src="../images/logo.webp" >
+                    <nav id="nagivation">
+                        <ul>
+                            <li><a href="index.html">Acceuil</a></li>
+                            <li><a href="apropos.html">A propos</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                    </header>
+    <main class="article-container">
+        <h1 class="article-title">Les Gateaux d'anniversaire</h1>
+
+        <div class="article-image">
+            <img src="../images/blog-9.jpg" alt="Image principale de l'article">
+        </div>
+
+        <div class="article-meta">
+            <p class="author">olasunkanmi fawaz</p>
+            <p class="date">Publié le 12 avril 2025</p>
+        </div>
+
+        <section class="article-content">
+            <h2>Introduction</h2>
+            <p>Les anniversaires sont célébrés dans le monde entier depuis des milliers d'années. Chaque culture possède des traditions et des produits de boulangerie uniques</p>
+            <p>pour rendre les fêtes d'anniversaire mémorables et amusantes. Dans cette série de blogs en trois parties, nous discuterons de l'histoire, des traditions et de la présentation des produits de boulangerie. Commençons donc par la douce histoire des produits de boulangerie.
+                </p>
+
+            <div class="article-image">
+                <img src="../images/portfolio-3.jpg" alt="Image secondaire">
+            </div>
+
+            <h3>Biscuits, gâteaux et bougies</h3>
+            <p>Les historiens pensent que les anciens Égyptiens furent les premiers à célébrer les anniversaires, car ils croyaient que les pharaons devenaient des dieux lorsqu’ils étaient couronnés. Les couronnements étaient considérés comme la « naissance » d’un dieu et célébrés. Des repas, des boissons et des festivités avaient lieu à la naissance de chaque nouveau pharaon, à l’image des « fêtes d’anniversaire » d’aujourd’hui. Pour les citoyens d’Égypte, les biscuits « Khak » étaient également couramment servis le jour de leur anniversaire pour honorer le dieu du soleil, Râ, symbolisant une autre année réussie autour du soleil. Ces biscuits ont une saveur douce et sont composés de farine, de beurre, de sucre, de muscade, de vanille, de cannelle et de lait. Les biscuits Khak sont encore couramment utilisés de nos jours.
+                Les gâteaux étaient également des aliments de fête d'anniversaire courants dans la Grèce antique et la Rome antique. Les Romains de l'Antiquité servaient généralement des gâteaux lors des anniversaires et des mariages. Les gâteaux circulaires étaient faits de farine, de noix, de levure levée et de miel. Le miel est ce qui donne la saveur sucrée de ces gâteaux. La Grèce antique célébrait les anniversaires avec des gâteaux, en particulier le sixième jour de chaque année lunaire avec des gâteaux en forme de lune qui comprenaient des bougies allumées. Les gâteaux étaient offerts à la déesse de la lune de la Grèce antique, Artémis. Les bougies allumées représentaient l'éclat de la lune. Les bougies d'Artémis étaient considérées comme les premières « bougies d'anniversaire ». Les bougies de gâteau ont continué à être utilisées dans d'autres cultures païennes anciennes. Les cultures païennes croyaient que le feu des bougies allumées effrayait les mauvais esprits et que la fumée des bougies transportait des prières aux dieux. Les gens faisaient du bruit et allumaient des bougies pour éloigner les mauvais esprits le jour de l'anniversaire d'une personne.
+                </p>
+               
+                <h3>Évolution et commercialisation</h3>
+            <p>Au fil des années, les gâteaux d'anniversaire ont évolué. Au début des années 1400, les boulangeries allemandes ont commencé à vendre des gâteaux sucrés, spécialement commercialisés pour les fêtes d'anniversaire des jeunes enfants. Les fêtes d'anniversaire étaient appelées Kinderfest et les gâteaux étaient appelés Geburtstagorten. Ces gâteaux étaient conçus pour les riches, mais avec la révolution industrielle, les gâteaux d'anniversaire étaient très répandus en Allemagne.
+                Au XVIIIe siècle, les enfants allemands étaient accueillis le jour de leur anniversaire avec un gâteau composé de bougies, de plusieurs couches de gâteau, de glaçage et de décorations. On utilisait couramment du sucre cristallisé et du sucre glace pour réaliser ce gâteau. À cette époque, on utilisait également des bougies pour décorer le gâteau. Les bougies totalisaient les années de l'enfant plus une, pour représenter l'espoir d'une autre année de vie en bonne santé. En Suisse, en 1881, le premier récit de soufflage de bougies est enregistré. Les bougies des gâteaux d'anniversaire représentaient chacune une année de vie et étaient soufflées une par une.
+                </p>
+           
+            <h3>Une tradition (presque) universelle</h3>
+               
+            <p>La tradition d'utiliser des gâteaux décorés et des bougies s'est perpétuée chez de nombreux Américains d'origine européenne comme coutume pour les fêtes d'anniversaire. Les gâteaux ont évolué pour inclure plusieurs couches, garnitures et saveurs. Des variantes de gâteaux telles que les cupcakes sont également couramment utilisées aux États-Unis. D'autres cultures célèbrent avec différents types de gâteaux, mais certaines variantes du gâteau d'anniversaire sont devenues un incontournable dans presque toutes les cultures du monde. Les gâteaux de fête continuent d'évoluer à partir de leur histoire sucrée qui remonte à l'Égypte ancienne, à la Grèce et à Rome.
+                Quelle que soit l'époque, les gâteaux d'anniversaire sont généralement sucrés, généralement dus au sucre ou au miel dans la pâte, et considérés comme une friandise. Le sucre glace est le plus souvent utilisé dans le glaçage, le fondant et le glaçage, ce qui donne à de nombreux gâteaux d'anniversaire leur aspect visuel distinctif. La texture lisse du sucre glace donne la texture lisse souhaitée pour les glaçages. Les sucres des fruits, des bonbons ou des paillettes sont utilisés comme décorations et garnitures, apportant la touche sucrée finale à l'aliment de base des anniversaires.
+                À bien des égards, l'histoire des gâteaux d'anniversaire illustre également l'histoire de l'utilisation du sucre dans les produits de boulangerie et pour les célébrations. Il y a des milliers d'années, les Égyptiens utilisaient les biscuits sucrés appelés Khaks comme friandise pour les fêtes, et aujourd'hui encore, des gâteaux sucrés et élaborés, décorés de sucre et de glaçage, sont utilisés pour célébrer. Quelle que soit l'année, le pays ou la culture, le sucre constitue la base d'une friandise amusante pour adoucir votre fête d'anniversaire. Dans notre prochain article de blog, nous verrons comment les gâteaux d'anniversaire varient à travers le monde, presque tous les gâteaux incorporant du sucre pour améliorer la saveur, la texture et l'attrait visuel.
+                </p>
+            </section>
+            <section class="COM">
+                <h2>Conclusion</h2>
+                <p>Le gâteau d'anniverssaire représente la joie et la douceur de vivre, et souffler les bougies est considére comme une facon de faire un voeu pour l'année à venir.
+                    Le fait de couper et de partager le gâteau avec ses proches symbolise également le partage du bonheur et de la bonne fortune.</p>
+                    <p>Pour en savoir plus, consultez <a href=" https://www.eyrolles.com/Loisirs/Livre/gateaux-d-anniversaire-creatifs-pour-les-petits-et-les-grands-9782814104730/  "> Lire plus </a>.</p>
+            </section>
+        </article>  
+    </main>
+
+    <footer class="pied">
+        <div class="copyright">Copyright 2024 - Nom et Prénom</div>
+        <div class="social">
+            <a href="https://www.facebook.com/share/18HxQVUNGa/?mibextid=wwXIfr"><img src="../images/facebook.jpg" alt="Facebook"></a>
+            <a href="I'm on Instagram as @fawazfao2003. Install the app to follow my photos and videos. https://www.instagram.com/fawazfao2003?igsh=eTFvaW9zNzIzdmMz&utm_source=ig_contact_invite"><img src="../images/instagram.jpg" alt="Instagram"></a>
+            <a href="https://x.com/fawazfao83586?s=21"><img src="../images/twitter.jpg" alt="X"></a>
+            <a href="https://youtube.com/@fawazfao?si=lkaqNph_H4sROQq9"><img src="../images/youtube.jpg" alt="YouTube"></a>
+        </div>
+    </footer>
+
+</body>
+</html>
